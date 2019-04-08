@@ -1,0 +1,21 @@
+{
+    "name": "rizlantamima/laravel-elastic",
+    "description": "Handle elasticsearch on laravel 5",
+    "keywords": ["laravel","elasticsearch","elastic"],
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "Rizlan Nawfal Tamima",
+            "email": "rtamima@gmail.com"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3.0",
+        "elasticsearch/elasticsearch": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rizlantamima\\ElasticQuent\\": "src/"
+        }
+    }
+}
